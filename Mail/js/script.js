@@ -12,13 +12,13 @@ invio.addEventListener('click', function() {
             boolean = true;
             console.log(boolean);
         }
-    }
+    };
     
     if (boolean == true) {
         console.log('email corretta');
     } else {
         console.log('email sbagliata');
-    }
+    };
     
 });
 console.log(boolean);

@@ -5,11 +5,35 @@
 }
 
 .container {
-    width: 150px;
-    height: 150px;
-    border: 1px solid red;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1em;
+    flex-wrap: wrap;
 }
 .box {
-    width: 50px;
+    width: 100px;
+    height: 100px;
+    border: 3px solid red;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tira-dadi {
+    width: 100px;
     height: 50px;
+}
+.result-box {
+    width:90%;
+    height: 100px;
+    border: 3px solid green;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
 }
